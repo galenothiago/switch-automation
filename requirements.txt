@@ -1,0 +1,6 @@
+connexion==2.7.0
+swagger-ui-bundle==0.0.8
+Flask==1.1.2
+ncclient==0.6.9
+netmiko==3.3.0
+PyYAML==5.3.1

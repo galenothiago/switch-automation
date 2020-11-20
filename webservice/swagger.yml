@@ -1,0 +1,26 @@
+openapi: 3.0.0
+info:
+  description: Swagger file
+  version: "1.0.0"
+  title: Automação Switches
+
+servers:
+    - url: http://ip:porta/api
+
+paths:
+  /dcim/interfaces/:
+    put:
+      operationId: api.func_int.interfaces
+      tags:
+        - DCIM
+      summary:  Captura Interface Editada
+      description:  Captura Interface Editada
+
+      responses:
+        204:
+          description: 204 OK
+          content:
+            text/plain:
+              schema:
+                type: string
+                description: ok
